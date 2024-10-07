@@ -11,7 +11,7 @@ const projectileSpeed = 8; // the speed of projectiles
 /////////////////////////////////////////////////
 
 // Base game variables
-const frameRate = 60;
+const frameRate = 70;
 const playerScale = 0.8; //makes the player just a bit smaller. Doesn't affect the hitbox, just the image
 
 // Player variables
@@ -92,9 +92,9 @@ let animationDetails = {};
 
 var collectableList = {
   database: { image: "images/collectables/database.png" },
-  diamond: { image: "images/collectables/diamond-head.png" },
-  grace: { image: "images/collectables/grace-head.png" },
+  diamond: { image: "https://www.nickschiliparlor.com/images/NicksDogSample2c.png" },
+  grace: { image: "https://pngimg.com/uploads/sprite/sprite_PNG8934.png" },
   kennedi: { image: "images/collectables/kennedi-head.png" },
-  max: { image: "images/collectables/max-head.png" },
-  steve: { image: "images/collectables/steve-head.png" },
+  max: { image: "https://images.fineartamerica.com/images-medium-5/scott-pilgrim-1-up-brand-a-transparent.png" },
+  steve: { image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMzU_iV01XuM1VEs_kjoP-LNwRip55N5QEMA&s" },
 };
